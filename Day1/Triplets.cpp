@@ -35,7 +35,7 @@ public:
             {
                 for(int k=j+1;k<n;k++)
                 {
-                    if(abs(arr[i]-arr[j])<=a and abs(arr[j]-arr[k])<=b and                           abs(arr[i]-arr[k])<=c)
+                    if(abs(arr[i]-arr[j])<=a and abs(arr[j]-arr[k])<=b and  abs(arr[i]-arr[k])<=c)
                     {
                         cn++;
                     }
